@@ -1,0 +1,85 @@
+.navigation {
+    float: right;
+    margin-top: 20px;
+  }
+  
+  .navigation li {
+    display: inline-block;
+    margin-right: 100px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .navigation a:hover {
+    color: gray;
+  }
+  
+  /* Обновленные стили для шапки */
+  .header {
+    background: #101010;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-container h1 {
+    color: white;
+    font-size: 45px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/font1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .content {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .content img {
+    float: left;
+    flex: 0 0 auto;
+    margin-right: 100px;
+    width: 500px;
+  }
+  
+  .content p {
+    flex: 1 1 auto;
+    font-size: 35px;
+  }
+  .content h1 {
+    margin-left: 200px;
+  }
+  
+
+  .contents {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .contents img {
+    margin-left: 20px;
+    width: 500px;
+  }
+  
+  .contents p {
+    margin-right: 20px;
+    font-size: 35px;
+  }
